@@ -1,0 +1,26 @@
+{
+  "task1": {
+    "task": "Read any SD Book",
+    "startDateTime": "16-June-2024 08:30 pm",
+    "endDateTime": "16-June-2024 09:30 pm",
+    "currentState": "Not Started",
+    "createdDateTime": "16-June-2024 04:30 pm",
+    "createdBy": "Venkatesh Sandiri"
+  },
+  "task2": {
+    "task": "solve a dsa problem in leetcode and note it in notes",
+    "startDateTime": "16-June-2024 02:30 pm",
+    "endDateTime": "16-June-2024 03:30 pm",
+    "currentState": "In Progress",
+    "createdDateTime": "16-June-2024 010:30 am",
+    "createdBy": "Venkatesh Sandiri"
+  },
+  "TotalNoOfTasksCreated": "2",
+  "PendingTasks": "2",
+  "InProgressTasks": "1",
+  "DelyedTasks": "1",
+  "DeletedTasks": "0",
+  "TotalNoOfTasksCompleted": "2",
+  "TotalNoOfTasksCompletedOnTime": "0",
+  "TotalNoOfTasksCompletedExtendingTime": "0"
+}
