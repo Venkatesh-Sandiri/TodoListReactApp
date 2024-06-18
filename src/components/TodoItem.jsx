@@ -13,7 +13,7 @@ function Todo({ task }) {
   const [currentState, setCurrentState] = useState(0);
   const [startDateTime, setStartDateTime] = useState(new Date());
   const [endDateTime, setEndDateTime] = useState(new Date());
-
+  const [currentTime, setCurrentTime] = useState(new Date());
   return (
     <div className="completeTodo" style={{}}>
       <div
@@ -33,16 +33,14 @@ function Todo({ task }) {
             className={`status startTime`}
             style={{ borderRadius: '5px', padding: '3px', marginleft: '3px' }}
           >
-            Start Time : {startDateTime.toLocaleDateString()}{' '}
-            {startDateTime.toLocaleTimeString()}
+            Start Time : {task.startDateTime}
           </div>
 
           <div
             className={`status endTime`}
             style={{ borderRadius: '5px', padding: '3px', marginLeft: '3px' }}
           >
-            End Time : {endDateTime.toLocaleDateString()}{' '}
-            {endDateTime.toLocaleTimeString()}
+            End Time : {task.endDateTime}
           </div>
         </div>
         <div className="bringContentsInCentre">
